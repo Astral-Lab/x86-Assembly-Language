@@ -1,5 +1,7 @@
 ## 1.
 > Explain why overflow cannot occur when the MUL and one-operand IMUL instructions execute.
+'''
+'''
 
 ## 2.
 > How is the one-operand IMUL instruction different from the MUL in the way it generates a multiplication product?
