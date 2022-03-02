@@ -32,7 +32,7 @@ EAX.
 > When BX is the operand in a DIV instruction, which register holds the quotient?
 
 ```
-AL.
+AX.
 ```
 
 ## 6.
