@@ -17,7 +17,8 @@ IMUL retains the sign of the product.
 > What has to happen in order for the one-operand IMUL to set the Carry and Overflow flags?
 
 ```
-If the upper half of the product is not a sign extension of the sign bit of the lower half, then the overflow and carry flags will be set.
+If the upper half of the product is not a sign extension of the sign bit of the lower half, 
+then the overflow and carry flags will be set.
 ```
 
 ## 4.
