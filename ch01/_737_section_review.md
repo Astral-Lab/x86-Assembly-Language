@@ -1,10 +1,10 @@
 ## 1.
 > Explain why overflow cannot occur when the MUL and one-operand IMUL instructions execute.
 
-``cpp
+```
 The greatest product of the multiplicand and multiplier will always be less than what the destination can store.
 This can be proven by mathematical induction.
-``
+```
 
 ## 2.
 > How is the one-operand IMUL instruction different from the MUL in the way it generates a multiplication product?
