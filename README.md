@@ -10,7 +10,7 @@
 - Chapter 4. Data Transfers, Addressing, and Arithmetic
 - Chapter 5. Procedures
 - Chapter 6. Conditional Processing
-- [Chapter 7. Integer Arithmetic]()
+- [Chapter 7. Integer Arithmetic](https://github.com/Astral-Lab/x86-Assembly-Language/tree/main/ch01)
 - Chapter 8. Advanced Procedures
 - Chapter 9. Strings and Arrays
 - Chapter 10. Structures and Macros
