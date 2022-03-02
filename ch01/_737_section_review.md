@@ -46,7 +46,7 @@ AX.
 > Show an example of sign extension before calling the IDIV instruction with a 16-bit operand.
 
 ```
-mov ax, 8000h
+mov ax, 80h
 cwd
 mov bl, 2
 idiv bl
