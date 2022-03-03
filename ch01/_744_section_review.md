@@ -1,6 +1,7 @@
 ## 1.
 > Describe the ADC instruction.
 ```
+The ADC (add with carry) works the same as the ADD instruction, with the added feature of also adding the value of the carry flag to the destination operand.
 ```
 
 ## 2.
