@@ -1,7 +1,17 @@
 ## 1.
 > Describe the ADC instruction.
 ```
-The ADC (add with carry) works the same as the ADD instruction, with the added feature of also adding the value of the carry flag to the destination operand.
+The ADC (add with carry) works the same as the ADD instruction, with ADC also adding the value of the carry flag to the destination operand.
+The power of ADC comes from allowing us to add numbers of almost unlimited size. For example, the following code segment demonstrates this:
+
+mov edx, 0
+mov eax, 0FFFFFFFFh
+add eax, 0FFFFFFFFh			; EAX = FFFFFFFEh
+adc edx, 0					    ; EDX/EAX = 00000001FFFFFFFEh
+
+As you can see, tradtionally, adding two 32-bit integers in 32-bit mode could result in overflow, but this is not the case here as we're taking
+advantage of the ADC instruction and multiple storage locations (two seperate 32-bit registers in the case). The example shown here can be extended to
+add integers of almost any size. 
 ```
 
 ## 2.
