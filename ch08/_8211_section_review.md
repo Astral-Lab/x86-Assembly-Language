@@ -9,7 +9,7 @@ False. While all stack frames contain the caller's return address, not all subro
 > (True/False): Arrays are passed by reference to avoid copying them onto the stack.
 
 ```
-True. If we were to copy them onto the stack, then it would add a lot of code clutter and execute slowly.
+True. If we were to copy them onto the stack, then it would add a lot of code clutter, execute slowly, and use up stack space.
 ```
 
 ## 3.
@@ -44,4 +44,5 @@ True.
 > What are the two common types of stack parameters?
 
 ```
-Register parameters and 
+Value parameters and reference parameters.
+```
