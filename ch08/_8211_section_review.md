@@ -2,7 +2,7 @@
 > (True/False): A subroutine's stack frame always contains the caller's return address and the subroutine's local variables.
 
 ```
-False. While all stack frames contain the caller's return address, not all subroutine's use local variables.
+True. A stack frame consists of a subroutines arguments, return address, local variables, and saved registers.
 ```
 
 ## 2.
@@ -23,8 +23,8 @@ True.
 > (True/False): Local variables are created by adding a positive value to the stack pointer.
 
 ```
-False. When pushing an element onto the runtime stack, the ESP pointer is decremented. Hence, local variables are created by subtracting
-the stack pointer, not adding a positive value to it.
+False. When pushing an element onto the runtime stack, the ESP pointer is decremented. Hence, local variables 
+are created by subtracting the stack pointer, not adding a positive value to it.
 ```
 
 ## 5.
