@@ -18,12 +18,15 @@ cmp eax, 0
 ```
 mov ebx, [ebp+8]
 mul ebx
+pop ebp 
+ret 4
 ```
 
 ## 4.
 > What would happen to the Factorial program's output if you tried to calculate 13!?
 
 ```
+
 ```
 
 ## 5.
