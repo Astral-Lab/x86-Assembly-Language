@@ -30,5 +30,5 @@ LODSW.
 > What does the REPZ prefix do for a CMPSB instruction?
 
 ```
-Continues executing the CMPSB instruction until either, the ECX < 0 or the ZR is not set.
+Continues executing the CMPSB instruction until either, the ECX < 0 or the ZR flag is not set.
 ```
